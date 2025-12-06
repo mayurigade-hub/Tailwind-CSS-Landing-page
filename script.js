@@ -3,9 +3,7 @@ function handleMenu() {
     navDialog.classList.toggle('hidden');
 }
 
-/* ===============================
-   PARALLAX FOR 3 ROW SCROLLER
-   =============================== */
+/* PARALLAX FOR 3 ROW SCROLLER */
 
 const SPEED = 0.15;
 
@@ -42,9 +40,7 @@ function setupParallaxLine(element, direction, initialOffset, speed) {
     observer.observe(element);
 }
 
-/* ===============================
-   APPLY TO THE 3 ROWS
-   =============================== */
+/*  APPLY TO THE 3 ROWS */
 
 setupParallaxLine(
     document.getElementById("line1"),
